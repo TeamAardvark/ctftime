@@ -1,0 +1,2 @@
+GET flag.txt HTTP/1.1
+Range: bytes=0-3

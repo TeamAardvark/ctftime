@@ -1,0 +1,13 @@
+POST https://uploooadit.oooverflow.io/files/
+Content-Type: text/plain
+X-guid: cf8c052b-551c-426f-9016-5213375104c1
+
+(os,)
+
+###
+
+GET https://uploooadit.oooverflow.io/files/cf8c052b-551c-426f-9016-5213375104c1
+
+###
+
+GET http://192.168.33.20:5000/files/cf8c052b-551c-426f-9016-5213375104c1

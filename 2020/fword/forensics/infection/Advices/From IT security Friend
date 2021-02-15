@@ -1,0 +1,7 @@
+Hello Semah,
+
+I received your request on how to protect your important files.
+To do thatn i higly recommend you to encrypt it with AES CBC-256 and the key you used encrypt it with RSA.
+
+Best Regards,
+SBA

@@ -1,0 +1,3 @@
+
+$a = `$(pwd)/../flag`; echo "a = $a";
+echo `$(pwd)/../flag`;

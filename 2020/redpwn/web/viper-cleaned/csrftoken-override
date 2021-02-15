@@ -1,0 +1,11 @@
+curl 'http://2020.redpwnc.tf:31291/analytics?ip_address=__csrftoken__admin_account' \
+  -H 'Connection: keep-alive' \
+  -H 'Pragma: no-cache' \
+  -H 'Cache-Control: no-cache' \
+  -H 'Upgrade-Insecure-Requests: 1' \
+  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36' \
+  -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' \
+  -H 'Accept-Language: en-US,en;q=0.9,ro;q=0.8' \
+  -H 'Cookie: connect.sid=s%3Al-AEtvk0GY3UVrpVTBozpRyqNOGC40W_.%2BNf4gy5PlNctGLAAJ0rAESYKteLmTU1I%2FrC1u%2B25bEg' \
+  --compressed \
+  --insecure

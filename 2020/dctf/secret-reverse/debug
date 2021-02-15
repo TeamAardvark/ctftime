@@ -1,0 +1,62 @@
+basic_string pointers:
+- 0x7fffffffdbd0 - message.txt content
+- 0x7fffffffdbf0 - "capetown"
+- 0x7fffffffdc10 - "vodka"
+- 0x7fffffffdc30 - "jamesons"
+- 0x7fffffffdc50 - "WHISKEYRTXABCDFGJLMNOPQUVZ./"
+- 0x7fffffffdc70
+
+alphabet?: 
+ABCDEvodkaFGHIJbcefgKLMNOhijlmPQRSTnpqrsUVWXYtuwxy
+jamesABCDEonsbcFGHIJdfghiKLMNOklpqrPQRSTtuvwxUVWXY
+
+allocator: 0x7fffffffdbcb --> 0xffdbe00000000000 
+
+call with 0x7fffffffdcf0, 0x7fffffffdc50, 0x4, 0x9
+- call with 0x7fffffffdcf0
+- call with 0x7fffffffdcf0
+....
+- call with 0x7fffffffdcf8
+- call with 0x7fffffffdb7c, 0x7fffffffdb78, 0x7fffffffdb78
+- call with 0x7fffffffdb7c, 0x7fffffffdb78, 0x7fffffffdb78
+
+call with Guessed arguments:
+arg[0]: 0x7fffffffdcf0 --> 0x0 
+arg[1]: 0x55555576dc20 ("WHISKEYRTXABCDFGJLMNOPQUVZ./")
+arg[2]: 0x55555576dc20 ("WHISKEYRTXABCDFGJLMNOPQUVZ./")
+    Guessed arguments:
+    arg[0]: 0x7fffffffdcf0 --> 0x0 
+    arg[1]: 0x0 
+    arg[2]: 0x7fffffffdcf8 --> 0x0 
+    arg[3]: 0x55555576dc20 ("WHISKEYRTXABCDFGJLMNOPQUVZ./")
+.....
+Guessed arguments:
+arg[0]: 0x48 ('H')
+arg[1]: 0x55555576dc50 --> 0x0 
+
+
+W, T, M, H, X, N, I, A, O, S, B, P, C, Q, K, D, U, E, F
+
+......
+
+Guessed arguments:
+arg[0]: 0x7fffffffdbe0 --> 0x61616161616161 ('aaaaaaa')
+arg[1]: 0x7fffffffdbe7 --> 0xffff00000000 
+arg[2]: 0x7fffffffdbca --> 0xdbe000000000785f 
+arg[3]: 0x7fffffffdbcb --> 0xffdbe00000000078 
+
+.....
+
+Guessed arguments:
+arg[0]: 0x7fffffffdcb0 --> 0x7fffffffdcc0 --> 0x616b646f76 ('vodka')
+arg[1]: 0x7fffffffdcd0 --> 0x7fffffffdce0 ("jamesons")
+arg[2]: 0x7fffffffdcd0 --> 0x7fffffffdce0 ("jamesons")
+
+
+
+((pos << 2) + pos) * 2 + multiplier * 1
+
+!!!! 0x55555575bdd0
+rbp-0x18: 0-4
+rbp-0x14: 5-9 - multiplier
+

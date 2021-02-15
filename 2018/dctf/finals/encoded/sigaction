@@ -1,0 +1,7 @@
+rt_sigaction(SIGSEGV, {0x80482b0, [], SA_NODEFER}, NULL, 8) = 0
+rt_sigaction(SIGILL, {0x8048337, [], SA_NODEFER}, NULL, 8) = 0
+--- SIGILL {si_signo=SIGILL, si_code=ILL_ILLOPN, si_addr=0x8049eee} ---
+--- SIGSEGV {si_signo=SIGSEGV, si_code=SEGV_MAPERR, si_addr=0} ---
+
+
+rt_sigaction(SIGSEGV, NULL, $1)

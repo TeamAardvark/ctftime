@@ -1,0 +1,426 @@
+{
+  "guid": "root________",
+  "title": "",
+  "index": 0,
+  "dateAdded": 1597581373577000,
+  "lastModified": 1597583564806000,
+  "id": 1,
+  "typeCode": 2,
+  "type": "text/x-moz-place-container",
+  "root": "placesRoot",
+  "children": [
+    {
+      "guid": "menu________",
+      "title": "menu",
+      "index": 0,
+      "dateAdded": 1597581373577000,
+      "lastModified": 1597581373792000,
+      "id": 2,
+      "typeCode": 2,
+      "type": "text/x-moz-place-container",
+      "root": "bookmarksMenuFolder",
+      "children": [
+        {
+          "guid": "W2-2Um1U1ZZs",
+          "title": "Mozilla Firefox",
+          "index": 0,
+          "dateAdded": 1597581373792000,
+          "lastModified": 1597581373792000,
+          "id": 7,
+          "typeCode": 2,
+          "type": "text/x-moz-place-container",
+          "children": [
+            {
+              "guid": "aggDdyyZCPCQ",
+              "title": "Help and Tutorials",
+              "index": 0,
+              "dateAdded": 1597581373792000,
+              "lastModified": 1597581373792000,
+              "id": 8,
+              "typeCode": 1,
+              "iconuri": "fake-favicon-uri:https://support.mozilla.org/en-US/products/firefox",
+              "type": "text/x-moz-place",
+              "uri": "https://support.mozilla.org/en-US/products/firefox"
+            },
+            {
+              "guid": "WjImF8ebisGk",
+              "title": "Customize Firefox",
+              "index": 1,
+              "dateAdded": 1597581373792000,
+              "lastModified": 1597581373792000,
+              "id": 9,
+              "typeCode": 1,
+              "iconuri": "fake-favicon-uri:https://support.mozilla.org/en-US/kb/customize-firefox-controls-buttons-and-toolbars?utm_source=firefox-browser&utm_medium=default-bookmarks&utm_campaign=customize",
+              "type": "text/x-moz-place",
+              "uri": "https://support.mozilla.org/en-US/kb/customize-firefox-controls-buttons-and-toolbars?utm_source=firefox-browser&utm_medium=default-bookmarks&utm_campaign=customize"
+            },
+            {
+              "guid": "hP2xny-QxO5z",
+              "title": "Get Involved",
+              "index": 2,
+              "dateAdded": 1597581373792000,
+              "lastModified": 1597581373792000,
+              "id": 10,
+              "typeCode": 1,
+              "iconuri": "fake-favicon-uri:https://www.mozilla.org/en-US/contribute/",
+              "type": "text/x-moz-place",
+              "uri": "https://www.mozilla.org/en-US/contribute/"
+            },
+            {
+              "guid": "nS4B_rjaevn-",
+              "title": "About Us",
+              "index": 3,
+              "dateAdded": 1597581373792000,
+              "lastModified": 1597581373792000,
+              "id": 11,
+              "typeCode": 1,
+              "iconuri": "fake-favicon-uri:https://www.mozilla.org/en-US/about/",
+              "type": "text/x-moz-place",
+              "uri": "https://www.mozilla.org/en-US/about/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "guid": "toolbar_____",
+      "title": "toolbar",
+      "index": 1,
+      "dateAdded": 1597581373577000,
+      "lastModified": 1597583564806000,
+      "id": 3,
+      "typeCode": 2,
+      "type": "text/x-moz-place-container",
+      "root": "toolbarFolder",
+      "children": [
+        {
+          "guid": "zYpOYwGD_Dbb",
+          "title": "Getting Started",
+          "index": 0,
+          "dateAdded": 1597581373863000,
+          "lastModified": 1597581373863000,
+          "id": 12,
+          "typeCode": 1,
+          "iconuri": "fake-favicon-uri:https://www.mozilla.org/en-US/firefox/central/",
+          "type": "text/x-moz-place",
+          "uri": "https://www.mozilla.org/en-US/firefox/central/"
+        },
+        {
+          "guid": "0511mxNdIWHq",
+          "title": "social media",
+          "index": 1,
+          "dateAdded": 1597581478825000,
+          "lastModified": 1597582668144000,
+          "id": 13,
+          "typeCode": 2,
+          "type": "text/x-moz-place-container",
+          "children": [
+            {
+              "guid": "FwNZPB-MHgll",
+              "title": "Fword (@FwordTeam) / Twitter",
+              "index": 0,
+              "dateAdded": 1597582552735000,
+              "lastModified": 1597582558110000,
+              "id": 22,
+              "typeCode": 1,
+              "iconuri": "https://abs.twimg.com/responsive-web/client-web/icon-ios.8ea219d5.png",
+              "type": "text/x-moz-place",
+              "uri": "https://twitter.com/FwordTeam"
+            },
+            {
+              "guid": "0JbtbJoy1IDq",
+              "title": "Facebook - Log In or Sign Up",
+              "index": 1,
+              "dateAdded": 1597582576435000,
+              "lastModified": 1597582585159000,
+              "id": 23,
+              "typeCode": 1,
+              "iconuri": "https://static.xx.fbcdn.net/rsrc.php/yo/r/iRmz9lCMBD2.ico",
+              "type": "text/x-moz-place",
+              "uri": "https://www.facebook.com/"
+            },
+            {
+              "guid": "0Y8UUwMIpNTk",
+              "title": "LinkedIn تونس: تسجيل الدخول أو إنشاء حساب",
+              "index": 2,
+              "dateAdded": 1597582598854000,
+              "lastModified": 1597582604980000,
+              "id": 24,
+              "typeCode": 1,
+              "iconuri": "https://static-exp1.licdn.com/scds/common/u/images/logos/favicons/v1/favicon.ico",
+              "type": "text/x-moz-place",
+              "uri": "https://tn.linkedin.com/"
+            },
+            {
+              "guid": "mrQfz00HmKVd",
+              "title": "YouTube",
+              "index": 3,
+              "dateAdded": 1597582617945000,
+              "lastModified": 1597582621366000,
+              "id": 25,
+              "typeCode": 1,
+              "iconuri": "https://s.ytimg.com/yts/img/favicon_144-vfliLAfaB.png",
+              "type": "text/x-moz-place",
+              "uri": "https://www.youtube.com/?gl=TN"
+            },
+            {
+              "guid": "htzw39s2-Qyq",
+              "title": "Instagram",
+              "index": 4,
+              "dateAdded": 1597582665401000,
+              "lastModified": 1597582668144000,
+              "id": 26,
+              "typeCode": 1,
+              "iconuri": "https://www.instagram.com/static/images/ico/favicon-192.png/68d99ba29cc8.png",
+              "type": "text/x-moz-place",
+              "uri": "https://www.instagram.com/"
+            }
+          ]
+        },
+        {
+          "guid": "sFIr_R6Vlk-s",
+          "title": "food",
+          "index": 2,
+          "dateAdded": 1597581488808000,
+          "lastModified": 1597583414824000,
+          "id": 14,
+          "typeCode": 2,
+          "type": "text/x-moz-place-container",
+          "children": [
+            {
+              "guid": "I-ejh3vyk452",
+              "title": "Food - Wikipedia",
+              "index": 0,
+              "dateAdded": 1597583077854000,
+              "lastModified": 1597583086871000,
+              "id": 27,
+              "typeCode": 1,
+              "iconuri": "https://en.wikipedia.org/static/apple-touch/wikipedia.png",
+              "type": "text/x-moz-place",
+              "uri": "https://en.wikipedia.org/wiki/Food"
+            },
+            {
+              "guid": "NlAJcZMhzahU",
+              "title": "brik tunisia - بحث Google‏",
+              "index": 1,
+              "dateAdded": 1597583105936000,
+              "lastModified": 1597583109870000,
+              "id": 28,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://www.google.com/search?client=firefox-b-d&q=brik+tunisia&spell=1&sa=X&ved=2ahUKEwiXu77m5J_rAhXGVsAKHVIrCPsQBSgAegQICxAs&biw=1067&bih=672"
+            },
+            {
+              "guid": "V93ch-HDqqVG",
+              "title": "plat tunisien - بحث Google‏",
+              "index": 2,
+              "dateAdded": 1597583336569000,
+              "lastModified": 1597583345453000,
+              "id": 29,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://www.google.com/search?client=firefox-b-d&biw=1067&bih=672&ei=-S45X4_tG4ubgQaP2a_QDw&q=plat+tunisien&oq=plat+tunisien&gs_lcp=CgZwc3ktYWIQAzICCAAyBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB46BAgAEEc6BQgAELEDOggIABCxAxCDAToICC4QsQMQgwE6BAgAEEM6CggAELEDEIMBEAo6AgguOgQIABAKOgQILhAKOggIABAWEAoQHlCHzw1YvOYNYOznDWgAcAV4AIAB-wGIAfAOkgEGMC4xMi4xmAEAoAEBqgEHZ3dzLXdpesABAQ&sclient=psy-ab&ved=0ahUKEwjPzZfo5J_rAhWLTcAKHY_sC_oQ4dUDCAs&uact=5"
+            },
+            {
+              "guid": "djekvMEd3Tk2",
+              "title": "bizerte food - بحث Google‏",
+              "index": 3,
+              "dateAdded": 1597583388149000,
+              "lastModified": 1597583391698000,
+              "id": 31,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://www.google.com/search?client=firefox-b-d&biw=1067&bih=672&ei=AzA5X4m5E4qW8gKz5LjgDw&q=bizerte+food&oq=bizerte+food&gs_lcp=CgZwc3ktYWIQAzIGCAAQDRAeMgYIABANEB4yBggAEA0QHjIICAAQCBANEB4yCAgAEAgQDRAeMgoIABAIEA0QChAeOgQIABBHOgcILhANEJMCOgQIABANUJtBWJ5hYOxiaAFwAXgBgAHNE4gByS6SAQc3LTMuMC4xmAEAoAEBqgEHZ3dzLXdpesABAQ&sclient=psy-ab&ved=0ahUKEwjJxvrm5Z_rAhUKi1wKHTMyDvwQ4dUDCAs&uact=5"
+            },
+            {
+              "guid": "6FVzOMoiWDAv",
+              "title": "kafteji - بحث Google‏",
+              "index": 4,
+              "dateAdded": 1597583412229000,
+              "lastModified": 1597583414824000,
+              "id": 32,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://www.google.com/search?client=firefox-b-d&biw=1067&bih=672&ei=ETA5X6jLN4-Q8gLdqrvADw&q=kafteji&oq=kafteji&gs_lcp=CgZwc3ktYWIQAzIFCC4QkwIyAggAMgIIADICCAAyBAgAEB4yBAgAEB4yBAgAEB4yBAgAEB4yBAgAEB4yBAgAEB46BggAEBYQHjoICAAQsQMQgwE6BQgAELEDOgUILhCxAzoICC4QsQMQgwE6BwguEEMQkwI6AgguOgQIABBDOgQILhBDUN3IAVjN0QFgyNMBaABwAHgAgAGrA4gBgA-SAQcyLTIuMy4xmAEAoAEBqgEHZ3dzLXdpesABAQ&sclient=psy-ab&ved=0ahUKEwjol_Xt5Z_rAhUPiFwKHV3VDvgQ4dUDCAs&uact=5"
+            }
+          ]
+        },
+        {
+          "guid": "m5Y1E6NFaACU",
+          "title": "games",
+          "index": 3,
+          "dateAdded": 1597581496221000,
+          "lastModified": 1597583487406000,
+          "id": 15,
+          "typeCode": 2,
+          "type": "text/x-moz-place-container",
+          "children": [
+            {
+              "guid": "JEGlvb37B7Bv",
+              "title": "assasin creed - بحث Google‏",
+              "index": 0,
+              "dateAdded": 1597583477507000,
+              "lastModified": 1597583487406000,
+              "id": 33,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://www.google.com/search?client=firefox-b-d&ei=WTA5X8PKJtSZgQaxv5rgDw&q=assasin+creed&oq=assasin+creed&gs_lcp=CgZwc3ktYWIQAzIHCC4QQxCTAjIECC4QCjIECC4QCjIECC4QCjIECAAQCjIECC4QCjIECC4QCjIECC4QCjIECC4QCjIECC4QCjoECAAQRzoECAAQQzoCCAA6CAgAELEDEIMBOgUIABCxAzoICC4QsQMQgwE6BAguEEM6AgguUMFDWJ9aYKFbaABwAngAgAGhAYgBtQuSAQM0LjmYAQCgAQGqAQdnd3Mtd2l6wAEB&sclient=psy-ab&ved=0ahUKEwiD246Q5p_rAhXUTMAKHbGfBvwQ4dUDCAs&uact=5"
+            }
+          ]
+        },
+        {
+          "guid": "MYwXZ4dcX13y",
+          "title": "resources",
+          "index": 4,
+          "dateAdded": 1597581509968000,
+          "lastModified": 1597583508479000,
+          "id": 16,
+          "typeCode": 2,
+          "type": "text/x-moz-place-container",
+          "children": [
+            {
+              "guid": "4EO5p-mU7xJW",
+              "title": "python - بحث Google‏",
+              "index": 0,
+              "dateAdded": 1597583504392000,
+              "lastModified": 1597583508479000,
+              "id": 34,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://www.google.com/search?client=firefox-b-d&ei=ZjA5X-LBIIOx8gLC8ZjoDw&q=python&oq=python&gs_lcp=CgZwc3ktYWIQAzIECAAQQzIECAAQQzICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAOgcILhBDEJMCOgQILhBDOgIILjoKCAAQsQMQgwEQQzoFCAAQsQM6CAgAELEDEIMBOggILhCxAxCDAVDGmwJY_KMCYLylAmgAcAB4AIABnAGIAbcGkgEDMS42mAEAoAEBqgEHZ3dzLXdpesABAQ&sclient=psy-ab&ved=0ahUKEwjijKKW5p_rAhWDmFwKHcI4Bv0Q4dUDCAs&uact=5"
+            }
+          ]
+        },
+        {
+          "guid": "_LHDcb1lBF1N",
+          "title": "Reading",
+          "index": 5,
+          "dateAdded": 1597581521835000,
+          "lastModified": 1597583525861000,
+          "id": 17,
+          "typeCode": 2,
+          "type": "text/x-moz-place-container",
+          "children": [
+            {
+              "guid": "DI1if2xsglqb",
+              "title": "the subtle art of not giving a f - بحث Google‏",
+              "index": 0,
+              "dateAdded": 1597583519517000,
+              "lastModified": 1597583525861000,
+              "id": 35,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://www.google.com/search?client=firefox-b-d&ei=jTA5X7S_J8ubgQbKyp_ADw&q=the+subtle+art+of+not+giving+a+f&gs_ssp=eJzj4tVP1zc0TE8vMi_KS6k0YPRSKMlIVSguTSrJSVVILCpRyE9TyMsvUUjPLMvMS1dIVEgDAJMQEHY&oq=the+subtl&gs_lcp=CgZwc3ktYWIQAxgAMgUILhCTAjICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADoECAAQRzoFCAAQsQM6CAgAELEDEIMBOggILhCxAxCDAToECAAQQzoCCC46BQguELEDOgcILhBDEJMCUJ5WWN1nYJlxaABwAXgAgAG-AYgBggiSAQMzLjaYAQCgAQGqAQdnd3Mtd2l6wAEB&sclient=psy-ab"
+            }
+          ]
+        },
+        {
+          "guid": "QA_kOwZYNQ5_",
+          "title": "CTF",
+          "index": 6,
+          "dateAdded": 1597581536970000,
+          "lastModified": 1597583547029000,
+          "id": 18,
+          "typeCode": 2,
+          "type": "text/x-moz-place-container",
+          "children": [
+            {
+              "guid": "jzbgrwOaSqOy",
+              "title": "Fword CTF",
+              "index": 0,
+              "dateAdded": 1597583539300000,
+              "lastModified": 1597583547029000,
+              "id": 36,
+              "typeCode": 1,
+              "iconuri": "https://fword.wtf/favicon/android-icon-192x192.png",
+              "type": "text/x-moz-place",
+              "uri": "https://fword.wtf/"
+            }
+          ]
+        },
+        {
+          "guid": "7FxwMjGRCzfL",
+          "title": "dev",
+          "index": 7,
+          "dateAdded": 1597581613664000,
+          "lastModified": 1597583564806000,
+          "id": 19,
+          "typeCode": 2,
+          "type": "text/x-moz-place-container",
+          "children": [
+            {
+              "guid": "iFT7ovji6vlb",
+              "title": "react - بحث Google‏",
+              "index": 0,
+              "dateAdded": 1597583559197000,
+              "lastModified": 1597583564806000,
+              "id": 37,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://www.google.com/search?client=firefox-b-d&q=react"
+            }
+          ]
+        },
+        {
+          "guid": "g5F4sWZ1F58w",
+          "title": "me me",
+          "index": 8,
+          "dateAdded": 1597581815012000,
+          "lastModified": 1597583564806000,
+          "id": 20,
+          "typeCode": 2,
+          "type": "text/x-moz-place-container",
+          "children": [
+            {
+              "guid": "caZG4iXdtkEa",
+              "title": "Secret - مستندات Google",
+              "index": 0,
+              "dateAdded": 1597582470774000,
+              "lastModified": 1597582479155000,
+              "id": 21,
+              "typeCode": 1,
+              "iconuri": "https://ssl.gstatic.com/docs/documents/images/kix-favicon7.ico",
+              "type": "text/x-moz-place",
+              "uri": "https://docs.google.com/document/d/1ihJrLY-1GW7gfmWzN8VuEOLHlF4XXEb6kDucb7-e5k0/edit?fbclid=IwAR2_3CXFR7uzuIpBVaumFSPL8sfZUe2SLVMzuFb7dfz40GmAkAaFt4U2XKM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "guid": "unfiled_____",
+      "title": "unfiled",
+      "index": 3,
+      "dateAdded": 1597581373577000,
+      "lastModified": 1597583564074000,
+      "id": 5,
+      "typeCode": 2,
+      "type": "text/x-moz-place-container",
+      "root": "unfiledBookmarksFolder",
+      "children": [
+        {
+          "guid": "LLEO-Ts-YgFu",
+          "title": "bizerte - بحث Google‏",
+          "index": 0,
+          "dateAdded": 1597583369274000,
+          "lastModified": 1597583369274000,
+          "id": 30,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://www.google.com/search?client=firefox-b-d&biw=1067&bih=672&ei=-C85X-X4A5DvgAbAuLzQDw&q=bizerte&oq=bizerte&gs_lcp=CgZwc3ktYWIQAzICCAAyBQguELEDMgUIABCxAzIICAAQsQMQgwEyCAguELEDEIMBMgUIABCxAzIICAAQsQMQgwEyAggAMgIILjIFCAAQsQM6BAgAEEdQ6S9YtURgykZoAHABeACAAdkNiAHZDZIBAzgtMZgBAKABAaoBB2d3cy13aXrAAQE&sclient=psy-ab&ved=0ahUKEwjl1Mvh5Z_rAhWQN8AKHUAcD_oQ4dUDCAs&uact=5"
+        }
+      ]
+    },
+    {
+      "guid": "mobile______",
+      "title": "mobile",
+      "index": 4,
+      "dateAdded": 1597581373592000,
+      "lastModified": 1597581373780000,
+      "id": 6,
+      "typeCode": 2,
+      "type": "text/x-moz-place-container",
+      "root": "mobileFolder"
+    }
+  ]
+}

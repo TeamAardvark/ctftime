@@ -1,0 +1,12 @@
+b *0xf7e28633
+b *0x565558bc
+b *0x56555608
+
+
+DEBUG
+1 - 0xffffcfcc - second string
+2 - malloc
+3 - puts
+4 - fread
+
+0xffffcec4 - first string

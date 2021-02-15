@@ -1,0 +1,7 @@
+push graphic-context
+viewbox 0 0 512 512
+push graphic-context
+text 50,40 'ECHO '
+pop graphic-context
+image over 100,30 0,0 'label:@flag'
+pop graphic-context
