@@ -1,0 +1,121 @@
+<style>
+  .qr-fix-wrapper {
+    position: relative;
+  }
+  .qr-fix-wrapper img {
+    position: absolute;
+  }
+  .qr-fix-wrapper .cells {
+    position: absolute;
+    top: 4px;
+    left: 6px;
+  }
+  .qr-fix-wrapper .cell {
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    background-color: black;
+  }
+</style>
+<div class="qr-fix-wrapper">
+  <img src="./broken_qr.png" />
+  <div class="cells">
+    <div class="cell" data-col="0" data-row="0"></div>
+    <div class="cell" data-col="1" data-row="0"></div>
+    <div class="cell" data-col="3" data-row="0"></div>
+    <div class="cell" data-col="4" data-row="0"></div>
+    <div class="cell" data-col="5" data-row="0"></div>
+    <div class="cell" data-col="6" data-row="0"></div>
+
+    <div class="cell" data-col="0" data-row="1"></div>
+    <div class="cell" data-col="6" data-row="1"></div>
+
+    <div class="cell" data-col="0" data-row="2"></div>
+    <div class="cell" data-col="2" data-row="2"></div>
+    <div class="cell" data-col="3" data-row="2"></div>
+    <div class="cell" data-col="4" data-row="2"></div>
+    <div class="cell" data-col="6" data-row="2"></div>
+
+    <div class="cell" data-col="0" data-row="3"></div>
+    <div class="cell" data-col="2" data-row="3"></div>
+    <div class="cell" data-col="3" data-row="3"></div>
+    <div class="cell" data-col="4" data-row="3"></div>
+    <div class="cell" data-col="6" data-row="3"></div>
+
+    <div class="cell" data-col="0" data-row="4"></div>
+    <div class="cell" data-col="2" data-row="4"></div>
+    <div class="cell" data-col="3" data-row="4"></div>
+    <div class="cell" data-col="4" data-row="4"></div>
+    <div class="cell" data-col="6" data-row="4"></div>
+    <div class="cell" data-col="21" data-row="4"></div>
+    <div class="cell" data-col="22" data-row="4"></div>
+    <div class="cell" data-col="24" data-row="4"></div>
+
+    <div class="cell" data-col="0" data-row="5"></div>
+    <div class="cell" data-col="6" data-row="5"></div>
+    <div class="cell" data-col="24" data-row="5"></div>
+
+    <div class="cell" data-col="0" data-row="6"></div>
+    <div class="cell" data-col="1" data-row="6"></div>
+    <div class="cell" data-col="2" data-row="6"></div>
+    <div class="cell" data-col="3" data-row="6"></div>
+    <div class="cell" data-col="4" data-row="6"></div>
+    <div class="cell" data-col="5" data-row="6"></div>
+    <div class="cell" data-col="6" data-row="6"></div>
+    <div class="cell" data-col="20" data-row="6"></div>
+    <div class="cell" data-col="21" data-row="6"></div>
+    <div class="cell" data-col="22" data-row="6"></div>
+    <div class="cell" data-col="23" data-row="6"></div>
+    <div class="cell" data-col="24" data-row="6"></div>
+
+    <div class="cell" data-col="6" data-row="8"></div>
+
+    <div class="cell" data-col="6" data-row="10"></div>
+
+    <div class="cell" data-col="5" data-row="11"></div>
+    <div class="cell" data-col="7" data-row="11"></div>
+
+    <div class="cell" data-col="5" data-row="12"></div>
+    <div class="cell" data-col="6" data-row="12"></div>
+
+    <div class="cell" data-col="4" data-row="13"></div>
+
+    <div class="cell" data-col="6" data-row="14"></div>
+    <div class="cell" data-col="12" data-row="14"></div>
+    <div class="cell" data-col="13" data-row="14"></div>
+    <div class="cell" data-col="14" data-row="14"></div>
+
+    <div class="cell" data-col="4" data-row="15"></div>
+    <div class="cell" data-col="12" data-row="15"></div>
+
+    <div class="cell" data-col="11" data-row="16"></div>
+
+    <div class="cell" data-col="8" data-row="18"></div>
+
+    <div class="cell" data-col="10" data-row="19"></div>
+    <div class="cell" data-col="11" data-row="19"></div>
+    <div class="cell" data-col="22" data-row="19"></div>
+
+    <div class="cell" data-col="9" data-row="20"></div>
+    <div class="cell" data-col="10" data-row="20"></div>
+    <div class="cell" data-col="21" data-row="20"></div>
+
+    <div class="cell" data-col="21" data-row="22"></div>
+    <div class="cell" data-col="22" data-row="22"></div>
+
+    <div class="cell" data-col="21" data-row="23"></div>
+    <div class="cell" data-col="22" data-row="23"></div>
+
+    <div class="cell" data-col="20" data-row="24"></div>
+    <div class="cell" data-col="21" data-row="24"></div>
+    <div class="cell" data-col="22" data-row="24"></div>
+    <div class="cell" data-col="23" data-row="24"></div>
+    <div class="cell" data-col="24" data-row="24"></div>
+  </div>
+</div>
+<script>
+  document.querySelectorAll(".cell").forEach((node) => {
+    node.style.left = `${parseInt(node.dataset.col) * 9}px`;
+    node.style.top = `${parseInt(node.dataset.row) * 9}px`;
+  });
+</script>

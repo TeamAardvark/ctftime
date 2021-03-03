@@ -1,0 +1,38 @@
+import socket
+import binascii
+
+address = '138.197.69.63'
+port = 7777
+serverAddressPort = (address, port)
+bufferSize = 2048
+UDPClientSocket = socket.socket(family=socket.AF_INET, type=socket.SOCK_DGRAM)
+
+def readData():
+  msgFromServer = UDPClientSocket.recvfrom(bufferSize)
+  msg = msgFromServer[0]
+  print("R: {} - {}".format(binascii.hexlify(msg), len(msg)))
+
+def sendData(bytesToSend, read=True):
+  UDPClientSocket.sendto(bytesToSend, serverAddressPort)
+  print("S: {} - {}".format(binascii.hexlify(bytesToSend), len(bytesToSend)))
+  if read:
+    readData()
+
+# 51 - Q - query?
+# 52 - R - response?
+#                            0000000051000001e500000001000000010000000a0000007f
+print("Init")
+sendData(binascii.unhexlify('00000000510000010a00000000000000000000000100000000'))
+# sendData(binascii.unhexlify('0000000051000001d200000000000000000000000100000000'))
+
+# print("Login")
+# sendData(binascii.unhexlify('0000000052000001320000000000000001000000000000000000000051000001e500000001000000010000000a0000007f8167e84427f0ef24400000000051000001e500000002000000010000003b0000008ff80900616172647661726b2900313045374444314236393033304143453335323245363746314341323237423633373237433536360400322e31'))
+# sendData(binascii.unhexlify('0000000052000001f90000000100000004000000000000000000000052000001f90000000200000004000000000000000000000052000001f9000000030000000400000000000000'))
+# sendData(binascii.unhexlify('0000000052000001e8030000040000000500000000000000'))
+
+# sendData(binascii.unhexlify('000000005200000189df02001b0100001d01000000000000000000005200000189df02001c0100001d01000000000000'))
+# sendData(binascii.unhexlify('000000005100000144e302001e0100001d010000020000003c9d000000005100000144e302001f0100001d01000006000000337000000000'))
+
+print()
+while True:
+  readData()

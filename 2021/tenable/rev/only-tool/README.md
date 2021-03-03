@@ -1,0 +1,5 @@
+# Solution
+
+```
+strings a.out
+```

@@ -1,0 +1,36 @@
+@host = challenges.ctfd.io:30542
+
+GET /?name=please
+Host: {{host}}
+
+### 
+GET /main
+Host: {{host}}
+
+### 
+POST /main
+Host: {{host}}
+
+### 
+POST /main?magicWord=please
+Host: {{host}}
+
+### 
+POST /main
+Host: {{host}}
+Accept: application/json
+Content-Type: application/json
+
+### 
+OPTIONS /main
+Host: {{host}}
+
+### 
+GET /main
+Host: {{host}}
+Magic-Word: please
+
+###
+GET /other?name=admin
+Host: {{host}}
+

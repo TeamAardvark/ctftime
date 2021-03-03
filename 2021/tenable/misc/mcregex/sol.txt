@@ -1,0 +1,1 @@
+egrep -ohi 'flag\{[a-z_]{16}\}' haystack.txt

@@ -27,3 +27,4 @@ Vagrantfile
 *.deb
 *.xz
 *.out
+ubuntu-xenial-*
