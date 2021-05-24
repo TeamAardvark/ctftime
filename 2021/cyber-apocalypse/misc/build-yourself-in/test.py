@@ -1,0 +1,1 @@
+print(dir(print.__dir__))
