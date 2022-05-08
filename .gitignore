@@ -28,3 +28,4 @@ Vagrantfile
 *.xz
 *.out
 ubuntu-xenial-*
+test
